@@ -1,5 +1,16 @@
 {
   "dependencies": {
+    "http": "^0.0.1-security",
     "readline-sync": "^1.4.10"
-  }
+  },
+  "name": "prog3012_week3demo_2024fall-2",
+  "version": "1.0.0",
+  "description": "demo package for PROG3012 week 3",
+  "main": "httpDemo.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node httpDemo.js"
+  },
+  "author": "",
+  "license": "ISC"
 }
