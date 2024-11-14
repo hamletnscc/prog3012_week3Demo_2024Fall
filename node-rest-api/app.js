@@ -29,3 +29,12 @@ app.get("/status", (request, response) => {
     //sending this back to the client
     response.send(status);
  });
+
+ function statusCallBack(request, response)
+ {
+   const status = {
+       "Status": "Running"
+    };    
+    //sending this back to the client
+    response.send(status);
+ } 
